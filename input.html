@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Controls Example</title>
+</head>
+<body>
+  <h2>Abstract Registration Form</h2>
+  <form>
+   
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br><br>
+
+   
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+    <br><br>
+
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" required>
+    <br><br>
+
+   
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+    <br><br>
+
+  
+    <label>Languages Known:</label>
+    <input type="checkbox" name="lang" value="Java"> Java
+    <input type="checkbox" name="lang" value="Python"> Python
+    <input type="checkbox" name="lang" value="C++"> C++
+    <br><br>
+
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+
+   
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color">
+    <br><br>
+
+    <label for="resume">Upload Resume:</label>
+    <input type="file" id="resume" name="resume">
+    <br><br>
+
+    
+    <label for="volume">Volume:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100">
+    <br><br>
+
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
